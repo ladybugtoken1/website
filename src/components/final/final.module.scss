@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+    @media screen and (max-width: 900px) {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .title {
+        font-size: 50px;
+        color: rgb(242, 215, 9);
+    }
+
+    .disclaimer {
+        font-size: 30px;
+    }
+
+    .social {
+        margin: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            margin: 10px;
+        }
+    }
+}
