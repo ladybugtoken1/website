@@ -9,11 +9,11 @@ export const Header = () => {
 
             <div className={styles.leftSide}>
                 <img  src={ladybug} alt="ladybug image" />
-                <span>Ladybug Solana</span>
+                <span>Ladybug</span>
             </div>
             
             <div className={styles.buttonContainer}>
-                <Button text="Buy on Raydium" classname="button" link="https://www.google.com" />
+                <Button text="Buy on Birdseye" classname="button" link="https://birdeye.so/token/G65cADQtt9fZMyuU5vZxCZoimNGQENxE1112C8e4wUeM?chain=solana" />
             </div>
 
         </div>
