@@ -18,7 +18,10 @@ function App() {
   return (
     <div className={styles.container}>
 
-        <Header />
+        <div style={{height: '100px'}}>
+         <Header />
+        </div>
+        
 
         <div className={styles.upperBody}>
             <UpperBody />

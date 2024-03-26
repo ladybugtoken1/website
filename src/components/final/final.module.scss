@@ -13,10 +13,19 @@
     .title {
         font-size: 50px;
         color: rgb(242, 215, 9);
+
+        @media screen and (max-width: 900px) {
+            font-size: 25px;
+        }
     }
 
     .disclaimer {
         font-size: 30px;
+        color: orange;
+
+        @media screen and (max-width: 900px) {
+            text-align: center;
+        }
     }
 
     .social {

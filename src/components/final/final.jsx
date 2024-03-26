@@ -9,12 +9,12 @@ export const Final = () => {
         <div className={styles.container}>
             
             <div className={styles.title}>
-                <span>JOIN US!</span>
+                <span>THE IMPORTANT STUFF</span>
             </div>
 
             <div className={styles.disclaimer}>
                 <span>
-                    $LADY is a meme token and should not be considered an investment with any real value or anticipated return. The team is unknown, and there is no roadmap or structure in place to suggest any future development will take place. $LADY is for entertainment purposes only. 
+                    $LADY is a meme token and should not be considered an investment with any real value or anticipated return. There is no dedicated team, and there is no roadmap or structure in place to suggest any future development will take place. $LADY is for entertainment purposes only. 
                 </span>
             </div>
 
