@@ -25,6 +25,12 @@
 
         img {
             width: 70%;
+            //when hovered, make the image go smaller
+            &:hover {
+                transform: scale(0.9);
+                transition: transform 0.3s;
+            }
+
         }
     }
 
