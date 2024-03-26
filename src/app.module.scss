@@ -36,8 +36,6 @@
                 img {
                     width: 100px;
                 }
-                //make it move down the page and write the keyframes
-                
 
             }
         }
@@ -49,7 +47,7 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(80px);
+        transform: translateY(15px);
     }
     100% {
         transform: translateY(0);
