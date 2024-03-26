@@ -10,7 +10,7 @@ export const LowerBody = () => {
 
             <div className={styles.rightSide}>
                 <h1>LADYBUG TOKEN</h1>
-                <span> LadyBug Token, a community-driven, tax-free crypto on Solana, aims to disrupt the trend of fleeting critter coins with its meme-centric, secure, and fully transparent approach, sans presale or liquidity tax.</span>
+                <span> Ladybug Token, a community-driven, tax-free crypto on Solana, aims to disrupt the trend of fleeting critter coins with its meme-centric, secure, and fully transparent approach, sans presale or liquidity tax.</span>
             </div>
 
             <div className={styles.leftSide}>
