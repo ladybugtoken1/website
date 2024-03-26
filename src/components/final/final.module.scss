@@ -36,6 +36,12 @@
 
         svg {
             margin: 10px;
+            fill: white;
+
+            &:hover {
+                fill: rgb(86, 86, 86);
+                transition: fill 0.3s;
+            }
         }
     }
 }

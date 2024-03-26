@@ -45,6 +45,29 @@
         @media screen and (max-width: 900px) {
             height: 30%;
         }
+
+        .socials {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 5px;
+
+            @media screen and (max-width: 900px) {
+                justify-content: center;
+                margin-top: 10px;
+            }
+
+            svg {
+                // fill: red;
+                fill: white;
+
+                &:hover {
+                    fill: rgb(86, 86, 86);
+                    transition: fill 0.3s;
+                }
+            }
+        }
         
 
         h1 {

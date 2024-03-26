@@ -13,7 +13,7 @@ export const Header = () => {
             </div>
             
             <div className={styles.buttonContainer}>
-                <Button text="Buy on Birdseye" classname="button" link="https://birdeye.so/token/G65cADQtt9fZMyuU5vZxCZoimNGQENxE1112C8e4wUeM?chain=solana" />
+                <Button text="Buy on Jupiter" classname="button" link="https://jup.ag/swap/SOL-LADY_G65cADQtt9fZMyuU5vZxCZoimNGQENxE1112C8e4wUeM" />
             </div>
 
         </div>

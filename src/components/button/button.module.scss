@@ -11,6 +11,12 @@
     font-weight: bold;
     cursor: pointer;
     text-align: center;
+    font-size: 20px !important;
+
+    //target 44p or lower
+    @media screen and (max-width: 440px) {
+        font-size: 16px !important;
+    }
 
     &:hover {
         transform: scale(0.9);
