@@ -14,7 +14,7 @@ export const Final = () => {
 
             <div className={styles.disclaimer}>
                 <span>
-                $LADY is a meme token and should not be considered an investment with any real value or anticipated return. $LADY is for entertainment purposes only.
+                $LADY is a meme token and should not be considered an investment with any real value or anticipated return. $LADY is for entertainment purposes only."
                 </span>
             </div>
 

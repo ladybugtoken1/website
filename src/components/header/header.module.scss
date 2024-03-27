@@ -12,36 +12,49 @@
     z-index: 1000;
 
     @media screen and (max-width: 900px) {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     .leftSide {
         display: flex;
         align-items: center;
-        width: 50%;
+        width: 30%;
 
         @media screen and (max-width: 900px) {
-            width: 60%;
+            width: 20%;
+            flex-direction: column;
         }
 
         img {
             width: 70px;
             height: 70px;
             margin-right: 10px;
+
+            @media screen and (max-width: 900px) {
+                height: 40px;
+                width: 40px;
+            }
         }
 
         span {
             color: white;
-            font-size: 20px;
+            font-size: 25px;
+            @media screen and (max-width: 900px) {
+                font-size: 20px;
+            }
         }
     }
 
     .buttonContainer {
+        display: flex;
         margin-left: auto;
+        
 
         @media screen and (max-width: 900px) {
-            width: 40%;
+            width: 70%;
+            align-items: flex-end;
+            justify-content: flex-end;
         }
     }
 }
