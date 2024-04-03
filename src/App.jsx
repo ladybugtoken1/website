@@ -28,9 +28,9 @@ function App() {
         </div>
 
         <div className={styles.contract}>
-            <a 
-                
-                href="https://solscan.io/token/G65cADQtt9fZMyuU5vZxCZoimNGQENxE1112C8e4wUeM" target="_blank">Contract: G65cADQtt9fZMyuU5vZxCZoimNGQENxE1112C8e4wUeM</a>
+            <div className={styles.container}>
+                <a href="https://solscan.io/token/G65cADQtt9fZMyuU5vZxCZoimNGQENxE1112C8e4wUeM" target="_blank">Contract: G65cADQtt9fZMyuU5vZxCZoimNGQENxE1112C8e4wUeM</a>
+            </div>
         </div>
 
         <div className={styles.lowerBody}>

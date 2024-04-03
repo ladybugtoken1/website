@@ -14,7 +14,15 @@
         text-align: center;
         margin-top: 80px;
 
-        a {
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+            word-break: break-all;
+            width: 90%;
+
+            a {
             font-size: 40px;
             color: rgb(255, 102, 0);
             cursor: pointer;
@@ -40,6 +48,10 @@
             }
 
         }
+
+        }
+
+        
         
     }
 
